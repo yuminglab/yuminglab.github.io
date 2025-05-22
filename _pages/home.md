@@ -5,7 +5,7 @@ sitemap: false
 permalink: /
 ---
 
-### Welcome!
+### Welcome to Yuming's Lab!
 
 Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
 It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
@@ -16,9 +16,7 @@ Theoretical physics helps us to make progress in a wide range of fields, includi
 <div class="container">
 <div class="row">
 <center>
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" width="100%"/><br/>
-Examples of Feynman diagrams. <br/>
-Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
+<img src="{{ site.url }}{{ site.baseurl }}/images/lab.png" width="100%"/><br/><br/>
 </center>
 </div>
 </div>
@@ -26,7 +24,4 @@ Feynman R., The theory of positrons. <i>Phys. Rev.</i> (1949)
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+My scientific interests focus on studying how the brain controls movements in individuals with and without neurological disorders. Specifically, I am interested in investigating neural mechanisms of motor control and learning, modulation in cortical circuits, and neuroplasticity by employing biomechanical techniques, robotics, non-invasive brain stimulation, electrophysiology, and neuroimaging.

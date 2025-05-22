@@ -1,5 +1,26 @@
+- name: Yun Du
+  photo: YunDu.png
+  duration: In the lab 2025
+  email: yyjob24@hotmail.com
+  info: Now at cebbank
+  website: https://yun.yydarling.top
+  github: https://github.com/YYDarling
+  linkedin: https://www.linkedin.com/in/yun-fight-for-yourself
+
 - name: Example Alumni Name
   photo: rock.jpg
   duration: In the lab 2015-18
   info: Now at Univeristy of X
   email: exampleemail@gmail.com
+  website: https://alicezhang.com
+  scholar: https://scholar.google.com/citations?user=XXX
+  github: https://github.com/alice
+
+- name: Alice Zhang
+  photo: rock.jpg
+  duration: 2018–2022
+  info: PhD Student, now at Google
+  email: alice@example.com
+  website: https://alicezhang.com
+  scholar: https://scholar.google.com/citations?user=XXX
+  github: https://github.com/alice

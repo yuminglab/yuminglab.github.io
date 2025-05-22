@@ -28,13 +28,11 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
-  - name: publications
-#  - name: talks
   - name: research
-#  - name: software
+  - name: publications
   - name: team
-#  - name: teaching
-#  - name: blogs
+  - name: vacancies
+
 
 include:
   - .htaccess
@@ -70,16 +68,16 @@ scholar:
 
   source: /assets/
   bibliography: ref.bib
-  bibliography_template: bibtemplate
+  bibliography_template: bib_row
   sort_by: year, month
   order: descending
 
   replace_strings: true
   join_strings: true
 
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
+#  details_dir: bibliography
+#  details_layout: bibtex.html
+#  details_link: Details
 
   query: "@*"
 
@@ -93,3 +91,5 @@ exclude:
   - switch_theme.sh
   - tags
   - Rakefile
+
+

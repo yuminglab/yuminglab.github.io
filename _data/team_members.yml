@@ -1,4 +1,18 @@
-- name: Example student name
+- name: Yun Du
+  photo: YunDu.png
+  info: Research Assistant, started Feb. 2025
+  email: yyjob24@hotmail.com
+  website: https://yun.yydarling.top
+  github: https://github.com/YYDarling
+  linkedin: https://www.linkedin.com/in/yun-fight-for-yourself
+
+- name: Shancheng Bao
+  photo: rock.jpg
+  info: Postdoc, started Oct 2020
+  email: exampleemail@gmail.com #邮箱
+  website: https://website.com  # 个人主页
+
+- name: Lin Hou
   photo: rock.jpg
   info: Postdoc, started Oct 2040
   email: exampleemail@gmail.com

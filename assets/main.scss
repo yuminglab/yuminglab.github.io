@@ -11,3 +11,47 @@ $baseurl: "{{ site.url }}{{ site.baseurl }}";
 // @import "bootstrap_customization";
 @import "bootstrap";
 @import "SHB_css";
+
+// .social-icons a {
+//   display: inline-block;
+//   margin-right: 0.1px;
+//   margin-top: 0.1px;
+// }
+//
+// .social-icons {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 0.1px;
+//   margin-top: 0.1px;
+// }
+//
+// .social-icons a {
+//   font-size: 1em;
+//   color: inherit;
+//   text-decoration: none;
+// }
+
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;           // 控制图标间距，建议大于 0.1px
+  margin-top: 6px;    // 上边距，避免贴得太紧
+}
+
+.social-icons a {
+  display: inline-flex;       // 保证图标自身对齐并可缩放
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;           // 图标大小可调
+  color: #1abc9c;           // 保持当前颜色
+  text-decoration: none;
+  transition: all 0.2s ease;  // 平滑 hover 效果
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+
+

@@ -1,32 +1,48 @@
 ---
 title: "Publications"
-layout: gridlay
-sitemap: false
+layout: default
 permalink: /publications/
-years: [2016, 2017, 2018, 2019, 2020, 2021]
 ---
 
 <style>
-.jumbotron{
-    padding:3%;
-    padding-bottom:10px;
-    padding-top:10px;
-    margin-top:10px;
-    margin-bottom:30px;
+table.pubtable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+  font-size: 15px;
+}
+table.pubtable th, table.pubtable td {
+  padding: 10px;
+  vertical-align: top;
+}
+table.pubtable thead {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
+.pubtable .pub-links a {
+  color: #e91e63;
+  margin-right: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.pubtable .pub-links a:hover {
+  text-decoration: underline;
 }
 </style>
 
-<div class="jumbotron">
-### Preprints
-{% bibliography --query @unpublished %}
-</div>
+<table class="pubtable">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Authors</th>
+      <th>Title</th>
+      <th>Publication</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% bibliography --template bib_row %}
+  </tbody>
+</table>
 
-<div class="jumbotron">
-### Refereed journal articles
-{% bibliography --query @article %}
-</div>
-
-<div class="jumbotron">
-### Refereed conference proceedings
-{% bibliography --query @inproceedings %}
-</div>

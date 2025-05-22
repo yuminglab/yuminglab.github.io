@@ -1,0 +1,29 @@
+<tr>
+  <td>{{ entry.year }}</td>
+  <td>
+    {{ entry.author | replace: "Xie, W.", "<strong>Xie, W.</strong>" | markdownify | remove: "<p>" | remove: "</p>" }}
+  </td>
+  <td style="min-width: 300px;">{{ entry.title }}</td>
+  <td>
+    {% if entry.journal %}
+      {{ entry.journal }}
+    {% elsif entry.booktitle %}
+      {{ entry.booktitle }}
+    {% elsif entry.publisher %}
+      {{ entry.publisher }}
+    {% elsif entry.note %}
+      {{ entry.note }}
+    {% endif %}
+  </td>
+  <td class="pub-links">
+    {% if entry.file %}
+      <a href="{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank">PDF</a>
+    {% endif %}
+    {% if entry.data %}
+      <a href="{{ entry.data }}" target="_blank">Data</a>
+    {% endif %}
+    {% if entry.code %}
+      <a href="{{ entry.code }}" target="_blank">Code</a>
+    {% endif %}
+  </td>
+</tr>
