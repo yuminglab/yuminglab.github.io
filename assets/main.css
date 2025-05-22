@@ -22843,4 +22843,26 @@ img {
   fill: #00bc8c !important;
 }
 
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  color: #1abc9c;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=main.css.map */
