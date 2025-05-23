@@ -1,23 +1,31 @@
 - name: Yun Du
   photo: YunDu.png
-  info: Research Assistant, started Feb. 2025
+  info: Research Assistant
   email: yyjob24@hotmail.com
   website: https://yun.yydarling.top
   github: https://github.com/YYDarling
   linkedin: https://www.linkedin.com/in/yun-fight-for-yourself
 
 - name: Shancheng Bao
-  photo: rock.jpg
-  info: Postdoc, started Oct 2020
-  email: exampleemail@gmail.com #邮箱
-  website: https://website.com  # 个人主页
+  photo: shanchengBao.png
+  info: Postdoc, started Jan. 2020
+  email: shanchengbao09@tamu.edu
+  scholar: https://scholar.google.com/citations?user=U6_FsEIAAAAJ&hl=en
 
 - name: Lin Hou
-  photo: rock.jpg
-  info: Postdoc, started Oct 2040
-  email: exampleemail@gmail.com
-  website: https://website.com
+  photo: houlin.png
+  info: Postdoc, started Feb. 2024
+  email: lin.hou@tamu.edu>
+  scholar: https://scholar.google.com.hk/citations?user=0rRAi1kAAAAJ&hl=en
 
-- name: "This could be you !"
-  photo: rock.jpg
-  info: See <a href="www">openings</a> for more info
+- name: Yuzhu Chen
+  photo: yuzhuChen.png
+  info: Master, started May 2025
+  email: yuzhchen@tamu.edu
+  github: http://github.com/Yuzhu-Chen-Katy/
+  linkedin: http://linkedin.com/in/yuzhu-chen/
+
+
+
+
+

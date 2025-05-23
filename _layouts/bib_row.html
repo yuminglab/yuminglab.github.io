@@ -1,7 +1,10 @@
 <tr>
   <td>{{ entry.year }}</td>
   <td>
-    {{ entry.author | replace: "Lei,Yuming", "<strong>Lei,Yuming</strong>" | markdownify | remove: "<p>" | remove: "</p>" }}
+    {{ entry.author
+  | replace: "Lei, Yuming", "<strong style='color:#1abc9c;'>Lei, Yuming</strong>"
+  | replace: "Lei,Yuming", "<strong style='color:#1abc9c;'>Lei, Yuming</strong>"
+  | markdownify | remove: "<p>" | remove: "</p>" }}
   </td>
   <td style="min-width: 300px;">{{ entry.title }}</td>
   <td>
@@ -17,8 +20,12 @@
   </td>
 <td class="pub-links">
   {% if entry.file %}
+  {% if entry.file contains 'http' %}
+    <a href="{{ entry.file }}" target="_blank">PDF</a>
+  {% else %}
     <a href="{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank">PDF</a>
   {% endif %}
+{% endif %}
   {% assign show_data = entry.data %}
   {% assign show_code = entry.code %}
   {% if show_data or show_code %}

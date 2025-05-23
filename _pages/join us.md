@@ -16,7 +16,7 @@ permalink: /join us/
   <img src="{{ site.url }}{{ site.baseurl }}/images/lab.png" alt="Lab team" style="max-width: 700px; border-radius: 30px;">
   
   <!-- 悬浮圆图：加大尺寸 -->
-  <img src="{{ site.url }}{{ site.baseurl }}/images/lab.png" alt="Team circle"
+  <img src="{{ site.url }}{{ site.baseurl }}/images/dog.jpg" alt="Team circle"
        style="position: absolute; top: -40px; right: -40px; width: 200px; height: 200px; border-radius: 50%;">
 </div>
 
