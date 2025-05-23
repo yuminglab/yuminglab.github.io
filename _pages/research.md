@@ -28,14 +28,58 @@ iframe {
   display: inline;
   vertical-align: middle;
 }
+
+.pub-section.preprints {
+  color: #1abc9c;
+}
 </style>
 
-## Research
 
-<div class="jumbotron">
-<div class="col-md-12 col-sm-12">
-<h4>Example Research</h4>
 
-Example description
+<div class="jumbotron" style="padding: 1.5rem;">
+<h3 class="pub-section preprints">Example Research</h3>
+<div class="row align-items-center">
+<!-- 图片左侧 -->
+<div class="col-md-4 text-center" >
+<img src="{{ site.url }}{{ site.baseurl }}/images/research.png" alt="Research image" style="max-width: 100%; border-radius: 12px;height: 200px;">
+</div>
+
+<!-- 文本右侧 -->
+<div class="col-md-8" style="margin-top: -110px;">
+<p><strong>Example description:</strong> This research focuses on cognitive modeling and memory dynamics, aiming to understand the neural basis of memorability and knowledge.</p>
 </div>
 </div>
+</div>
+
+
+<div class="jumbotron" style="padding: 1.5rem;">
+<h3 class="pub-section preprints">Example Research</h3>
+<div class="row align-items-center">
+<!-- 图片左侧 -->
+<div class="col-md-4 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research.png" alt="Research image" style="max-width: 100%; border-radius: 12px;height: 200px;">
+</div>
+
+<!-- 文本右侧 -->
+<div class="col-md-8" style="margin-top: -110px;">
+<p><strong>Example description:</strong> This research focuses on cognitive modeling and memory dynamics, aiming to understand the neural basis of memorability and knowledge.</p>
+</div>
+</div>
+</div>
+
+
+<div class="jumbotron" style="padding: 1.5rem;">
+<h3 class="pub-section preprints">Example Research</h3>
+<div class="row align-items-center">
+<!-- 图片左侧 -->
+<div class="col-md-4 text-center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/research.png" alt="Research image" style="max-width: 100%; border-radius: 12px;height: 200px;">
+</div>
+
+<!-- 文本右侧 -->
+<div class="col-md-8" style="margin-top: -110px;">
+<p><strong>Example description:</strong> This research focuses on cognitive modeling and memory dynamics, aiming to understand the neural basis of memorability and knowledge.</p>
+</div>
+</div>
+</div>
+

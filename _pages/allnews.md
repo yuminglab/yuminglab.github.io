@@ -1,17 +1,25 @@
 ---
 title: "News"
-layout: textlay
+layout: gridlay
 sitemap: false
 permalink: /allnews.html
 ---
+<style>
+.pub-section.preprints {
+  color: #1abc9c;
+}
+</style>
 
-## News
+<h3 class="pub-section preprints">News</h3>
 
-<div class="jumbotron">
+<div class="col-md-12 col-sm-12">
 {% for article in site.data.news %}
-<b>{{ article.date }}</b>
-
+<div class="jumbotron" style="padding: 1rem; margin-bottom: 1rem;">
+<b>{{ article.date }}</b><br/>
 {{ article.headline }}
-{% endfor %}
-
 </div>
+{% endfor %}
+</div>
+
+
+

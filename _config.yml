@@ -22,7 +22,7 @@ location: >
   College Station, TX 77843
 
 contact: >
-  <a href="mailto:yxl907@tamu.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Yuming via email</a> <br/>
+  <a href="mailto:yxl907@tamu.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> yxl907@tamu.edu</a> <br/>
 #  <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
 
 # Pages shown in navbar
@@ -31,7 +31,7 @@ nav_pages:
   - name: research
   - name: publications
   - name: team
-  - name: Vacancies
+  - name: join us
 
 
 include:
