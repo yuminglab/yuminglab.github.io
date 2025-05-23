@@ -68,7 +68,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    
                 <a class="nav-item nav-link" href="https://yuminglab.github.io/team">Team</a>
                    
-                <a class="nav-item nav-link" href="https://yuminglab.github.io/vacancies">Vacancies</a>
+                <a class="nav-item nav-link" href="https://yuminglab.github.io/Vacancies">Vacancies</a>
             
         </div>
     </div>
@@ -77,12 +77,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="container-fluid">
       <div class="row">
-        <style>
+        <div class="container">
+  <style>
+h1.page-title {
+  color: white;
+  margin-top: 20px;
+}
+h3.pub-section {
+  color: #f8f9fa;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
 table.pubtable {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 2rem;
   font-size: 15px;
+  margin-bottom: 2rem;
 }
 table.pubtable th, table.pubtable td {
   padding: 10px;
@@ -91,20 +101,61 @@ table.pubtable th, table.pubtable td {
 table.pubtable thead {
   font-weight: bold;
   font-size: 16px;
-  color: #222;
+  color: white;
+  background-color: rgba(26, 188, 156, 0.15);  /* ← 淡绿色背景 */
 }
+
 .pubtable .pub-links a {
   color: #e91e63;
-  margin-right: 8px;
+  margin: 0 2px;
   text-decoration: none;
   font-weight: 500;
 }
+
 .pubtable .pub-links a:hover {
   text-decoration: underline;
 }
+
+.pub-links {
+  white-space: nowrap; /* 避免自动换行 */
+}
+
+ol.bibliography, ul.bibliography {
+  display: none !important;
+}
+
+li::marker {
+  content: "" !important;
+}
+
+li {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.pub-section.preprints {
+  color: #1abc9c;
+}
+
+
+
+.pub-section-wrapper {
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 2px;
+  border-radius: 12px;
+  margin-top: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+}
+
+
+
 </style>
 
-<table class="pubtable">
+<div class="pub-section-wrapper">
+  <h3 class="pub-section preprints">Preprints</h3>
+
+  <table class="pubtable">
   <thead>
     <tr>
       <th>Year</th>
@@ -115,88 +166,119 @@ table.pubtable thead {
     </tr>
   </thead>
   <tbody>
-    <ol class="bibliography" reversed="reversed"><li><tr>
-  <td>2040</td>
+    <ol class="bibliography"><li><tr>
+  <td>2024</td>
   <td>
-    Doe, J.
+    Smith, Jane and Turing, Alan
 
   </td>
-  <td style="min-width: 300px;"></td>
+  <td style="min-width: 300px;">On the Emergence of Intelligence in Machines</td>
   <td>
     
-      Example Talk Name
+      arXiv:2401.12345
     
   </td>
-  <td class="pub-links">
-    
-    
-    
-  </td>
+<td class="pub-links">
+  
+    <a href="/papers/smith2024preprint.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+</td>
+
 </tr>
 </li>
 <li><tr>
-  <td>2040</td>
+  <td>2024</td>
   <td>
-    Doe, J.
+    Smith, Jane and Turing, Alan
 
   </td>
-  <td style="min-width: 300px;">Example title</td>
+  <td style="min-width: 300px;">On the Emergence of Intelligence in Machines</td>
   <td>
     
-      Example Book
+      arXiv:2401.12345
     
   </td>
-  <td class="pub-links">
-    
-      <a href="/papers/example_proceeding.pdf" target="_blank">PDF</a>
-    
-    
-    
-  </td>
+<td class="pub-links">
+  
+    <a href="/papers/smith2024preprint.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+</td>
+
 </tr>
 </li>
 <li><tr>
-  <td>2040</td>
+  <td>2024</td>
   <td>
-    Doe, J.
+    Smith, Jane and Turing, Alan
 
   </td>
-  <td style="min-width: 300px;">Example talk</td>
+  <td style="min-width: 300px;">On the Emergence of Intelligence in Machines</td>
   <td>
     
-      Example Conference
+      arXiv:2401.12345
     
   </td>
-  <td class="pub-links">
-    
-    
-    
-  </td>
+<td class="pub-links">
+  
+    <a href="/papers/smith2024preprint.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+</td>
+
 </tr>
-</li>
-<li><tr>
-  <td>2025</td>
+</li></ol>
+  </tbody>
+</table>
+
+  <hr />
+  <h3 class="pub-section preprints">Refereed Journal Articles</h3>
+
+  <table class="pubtable">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Authors</th>
+      <th>Title</th>
+      <th>Publication</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ol class="bibliography"><li><tr>
+  <td>2023</td>
   <td>
-    
+    Lei, Yuming and Xie, W. and Smith, J.
 
   </td>
-  <td style="min-width: 300px;">Associating Everything with Everything Else</td>
+  <td style="min-width: 300px;">Attention-based models in cognitive decision making</td>
   <td>
     
-      Journal of Experimental Psychology
+      Journal of Cognitive Neuroscience
     
   </td>
-  <td class="pub-links">
+<td class="pub-links">
+  
+    <a href="/papers/lei2023attention.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+     | 
     
-      <a href="/papers/example2025.pdf" target="_blank">PDF</a>
+      <a href="https://osf.io/exampledata123" target="_blank">Data</a> &amp;
+      <a href="https://github.com/yuminglab/attention-models" target="_blank">Code</a>
     
-    
-      <a href="https://osf.io/exampledata" target="_blank">Data</a>
-    
-    
-      <a href="https://github.com/yourlab/example-code" target="_blank">Code</a>
-    
-  </td>
+  
+</td>
+
 </tr>
 </li>
 <li><tr>
@@ -211,39 +293,114 @@ table.pubtable thead {
       Physical Review
     
   </td>
-  <td class="pub-links">
-    
-      <a href="/papers/feynman39.pdf" target="_blank">PDF</a>
-    
-    
-    
-  </td>
-</tr>
-</li>
-<li><tr>
-  <td></td>
-  <td>
-    Feynman, R. P. and Cline, J. M.
+<td class="pub-links">
+  
+    <a href="/papers/feynman1939.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+</td>
 
-  </td>
-  <td style="min-width: 300px;">Feynman lectures on the strong interations</td>
-  <td>
-    
-      arXiv:2006.08594
-    
-  </td>
-  <td class="pub-links">
-    
-      <a href="/papers/feynman06.pdf" target="_blank">PDF</a>
-    
-    
-    
-  </td>
 </tr>
 </li></ol>
   </tbody>
 </table>
 
+  <hr />
+  <h3 class="pub-section preprints">Refereed Conference Proceedings</h3>
+
+  <table class="pubtable">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Authors</th>
+      <th>Title</th>
+      <th>Publication</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ol class="bibliography"><li><tr>
+  <td>2022</td>
+  <td>
+    Zhang, Qian and Lei, Yuming
+
+  </td>
+  <td style="min-width: 300px;">Adaptive metronome entrainment for motor learning</td>
+  <td>
+    
+      Proceedings of the IEEE Engineering in Medicine and Biology Society (EMBC)
+    
+  </td>
+<td class="pub-links">
+  
+    <a href="/papers/zhang2022adaptive.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+     | 
+    
+      <a href="https://github.com/yuminglab/adaptive-metronome" target="_blank">Code</a>
+    
+  
+</td>
+
+</tr>
+</li>
+<li><tr>
+  <td>2021</td>
+  <td>
+    Doe, J. and Kumar, A.
+
+  </td>
+  <td style="min-width: 300px;">A brain-computer interface for fast intention decoding</td>
+  <td>
+    
+      Neural Information Processing Systems (NeurIPS)
+    
+  </td>
+<td class="pub-links">
+  
+    <a href="/papers/doe2021bci.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+</td>
+
+</tr>
+</li>
+<li><tr>
+  <td>2021</td>
+  <td>
+    Doe, J. and Kumar, A.
+
+  </td>
+  <td style="min-width: 300px;">A brain-computer interface for fast intention decoding</td>
+  <td>
+    
+      Neural Information Processing Systems (NeurIPS)
+    
+  </td>
+<td class="pub-links">
+  
+    <a href="/papers/doe2021bci.pdf" target="_blank">PDF</a>
+  
+  
+  
+  
+</td>
+
+</tr>
+</li></ol>
+  </tbody>
+</table>
+</div>
+
+
+</div>
 
       </div>
     </div>
@@ -266,7 +423,7 @@ table.pubtable thead {
 		</div>
 
 		<div class="col-sm-4">
-		    <h5>Coordinates</h5>	
+		    <h5>Address</h5>
             <p>Texas A&M University<br/> Gibb Gilchrist Building, Room 328<br/> College Station, TX 77843
 </p>
 		</div>
