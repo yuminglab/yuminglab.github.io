@@ -1,7 +1,7 @@
 <tr>
   <td>{{ entry.year }}</td>
   <td>
-    {{ entry.author | replace: "Xie, W.", "<strong>Xie, W.</strong>" | markdownify | remove: "<p>" | remove: "</p>" }}
+    {{ entry.author | replace: "Lei,Yuming", "<strong>Lei,Yuming</strong>" | markdownify | remove: "<p>" | remove: "</p>" }}
   </td>
   <td style="min-width: 300px;">{{ entry.title }}</td>
   <td>
@@ -15,15 +15,23 @@
       {{ entry.note }}
     {% endif %}
   </td>
-  <td class="pub-links">
-    {% if entry.file %}
-      <a href="{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank">PDF</a>
-    {% endif %}
-    {% if entry.data %}
+<td class="pub-links">
+  {% if entry.file %}
+    <a href="{{ site.baseurl }}/papers/{{ entry.file }}" target="_blank">PDF</a>
+  {% endif %}
+  {% assign show_data = entry.data %}
+  {% assign show_code = entry.code %}
+  {% if show_data or show_code %}
+    {% if entry.file %} | {% endif %}
+    {% if show_data and show_code %}
+      <a href="{{ entry.data }}" target="_blank">Data</a> &amp;
+      <a href="{{ entry.code }}" target="_blank">Code</a>
+    {% elsif show_data %}
       <a href="{{ entry.data }}" target="_blank">Data</a>
-    {% endif %}
-    {% if entry.code %}
+    {% elsif show_code %}
       <a href="{{ entry.code }}" target="_blank">Code</a>
     {% endif %}
-  </td>
+  {% endif %}
+</td>
+
 </tr>
