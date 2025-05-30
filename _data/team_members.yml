@@ -1,10 +1,11 @@
-- name: Yun Du
-  photo: YunDu.png
-  info: Research Assistant
-  email: yyjob24@hotmail.com
-  website: https://yun.yydarling.top
-  github: https://github.com/YYDarling
-  linkedin: https://www.linkedin.com/in/yun-fight-for-yourself
+#模板
+#- name: Yun Du
+#  photo: YunDu.png
+#  info: Research Assistant
+#  email: yyjob24@hotmail.com
+#  website: https://yun.yydarling.top
+#  github: https://github.com/YYDarling
+#  linkedin: https://www.linkedin.com/in/yun-fight-for-yourself
 
 - name: Shancheng Bao
   photo: shanchengBao.png
@@ -15,8 +16,45 @@
 - name: Lin Hou
   photo: houlin.png
   info: Postdoc, started Feb. 2024
-  email: lin.hou@tamu.edu>
+  email: lin.hou@tamu.edu
   scholar: https://scholar.google.com.hk/citations?user=0rRAi1kAAAAJ&hl=en
+
+- name: Ashwini Ajit Sansare
+  photo: rock.jpg
+  info: Postdoc, started
+  email: ashwini@tamu.edu
+  scholar: https://scholar.google.com/citations?user=IBjgOZIAAAAJ&hl=en
+
+- name: Rob Escalante
+  photo: rock.jpg
+  info: PhD, started
+  email: robescalante37@tamu.edu
+  linkedin: https://www.linkedin.com/in/rob-escalante-a7868b17a/
+
+- name: Paz Montenegro
+  photo: PazMontenegro.png
+  info: PhD, started Aug. 2023, lab member since Sep. 2022
+  email: maripmontenegro@tamu.edu
+  scholar: https://scholar.google.com/citations?user=GMuFpgkAAAAJ&hl=en
+
+- name: Hossein Soroushi
+  photo: HosseinSoroushi.png
+  info: PhD, started Sep. 2023
+  email: hosseinsoroushi@tamu.edu
+  linkedin: https://www.linkedin.com/in/hosseinsoroushi/
+
+- name: Sara Abbasikamazani
+  photo: rock.jpg
+  info: PhD, started
+  email: saraabbasi@tamu.edu
+  scholar:
+  linkedin:
+
+- name: Yi-hsun Lin
+  photo: rock.jpg
+  info: Master, started March 2025
+  email: yihsunlin@tamu.edu
+  linkedin: https://www.linkedin.com/in/yi-hsun-l-360a1b113/
 
 - name: Yuzhu Chen
   photo: yuzhuChen.png
@@ -24,6 +62,7 @@
   email: yuzhchen@tamu.edu
   github: http://github.com/Yuzhu-Chen-Katy/
   linkedin: http://linkedin.com/in/yuzhu-chen/
+
 
 
 
