@@ -13,22 +13,24 @@
   email: shanchengbao09@tamu.edu
   scholar: https://scholar.google.com/citations?user=U6_FsEIAAAAJ&hl=en
 
-- name: Lin Hou
-  photo: houlin.png
-  info: Postdoc, started Feb. 2024
-  email: lin.hou@tamu.edu
-  scholar: https://scholar.google.com.hk/citations?user=0rRAi1kAAAAJ&hl=en
-
 - name: Ashwini Ajit Sansare
   photo: rock.jpg
   info: Postdoc, started
   email: ashwini@tamu.edu
   scholar: https://scholar.google.com/citations?user=IBjgOZIAAAAJ&hl=en
 
+- name: Lin Hou
+  photo: houlin.png
+  info: Postdoc, started Feb. 2024
+  email: lin.hou@tamu.edu
+  scholar: https://scholar.google.com.hk/citations?user=0rRAi1kAAAAJ&hl=en
+
 - name: Rob Escalante
-  photo: rock.jpg
-  info: PhD, started
+  photo: RobEscalante.png
+  info: PhD, started Aug. 2021
+  website: https://escalatestrength.com/
   email: robescalante37@tamu.edu
+  scholar: https://scholar.google.com/citations?user=1FKY3yIAAAAJ&hl=en&oi=sra
   linkedin: https://www.linkedin.com/in/rob-escalante-a7868b17a/
 
 - name: Paz Montenegro
@@ -44,15 +46,15 @@
   linkedin: https://www.linkedin.com/in/hosseinsoroushi/
 
 - name: Sara Abbasikamazani
-  photo: rock.jpg
-  info: PhD, started
+  photo: SaraAbbasikamazani.png
+  info: PhD, started Aug. 2024
   email: saraabbasi@tamu.edu
-  scholar:
-  linkedin:
+  scholar: https://scholar.google.com/citations?user=4zsNpL4AAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/saraabbasik/
 
 - name: Yi-hsun Lin
-  photo: rock.jpg
-  info: Master, started March 2025
+  photo: Yi-hsunLin.png
+  info: Master, started Mar. 2025
   email: yihsunlin@tamu.edu
   linkedin: https://www.linkedin.com/in/yi-hsun-l-360a1b113/
 
